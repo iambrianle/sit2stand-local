@@ -26,4 +26,4 @@ All script paths must be updated to match the system’s directory structure. En
 
 ## Acknowledgments
 
-This project was inspired by and builds upon work from [Stanford NMBL's Sit2Stand Analysis](https://github.com/stanfordnmbl/sit2stand-analysis). The `utils.py` and `getmetrics.py` scripts were modified from their original implementation to run locally.
+This project was inspired by and builds upon work from [Stanford NMBL's Sit2Stand Analysis](https://github.com/stanfordnmbl/sit2stand-analysis). The `utils.py`, `getmetrics.py` and `prepare.py` scripts were modified from their original implementation to run locally.
