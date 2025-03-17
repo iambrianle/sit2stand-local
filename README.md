@@ -1,5 +1,25 @@
-Installation and Setup
-To get started, clone the repository at https://github.com/iambrianle/sit2stand-local and install OpenPose using the guide at this repository. Install Python dependencies from the requirements.txt file in the cloned repository.
+# Sit2Stand Analysis
 
-Running the Code
-First, run main.py on your video to generate JSON files, then use prepare.py to create an npy file. Update the links.csv file with appropriate file names and paths, and finally run getmetrics.py to produce graphs, charts, and results. Remember to adjust paths in all Python files to match your system.
+This repository provides custom code to run the Sit2Stand library, enabling analysis of sit-to-stand movements using OpenPose.
+
+## Prerequisites
+
+- OpenPose must be installed to extract pose data from videos. A [OpenPose fork]([https://link-url-here.org](https://github.com/franzcrs/openpose-with-caffe-for-MacM1?tab=readme-ov-file)) is reccomended.
+- Python dependencies listed in the `requirements.txt` file need to be installed.
+
+## Installation
+
+1. Clone the repository and navigate into the project directory.
+2. Install the required Python dependencies.
+3. Install OpenPose by following the instructions in the recommended repository or the official documentation.
+
+## Usage
+
+1. Run the main script (main.py) on a video file to generate JSON files containing pose data.
+2. Process the JSON files using the preparation script (prepare.py) to create a NumPy file.
+3. Modify the `links.csv` file to ensure the file names and paths are correctly set.
+4. Use the metrics script (getmetrics.py) to generate final graphs, charts, and a results file based on the processed data.
+
+## Configuration
+
+All script paths must be updated to match the system’s directory structure. Ensure that file paths in all Python scripts and `links.csv` are correctly set before running the analysis.
