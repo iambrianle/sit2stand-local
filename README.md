@@ -1,4 +1,4 @@
-# Sit2Stand Analysis
+# Sit2Stand Local
 
 This repository provides custom code to run the Sit2Stand library, enabling analysis of sit-to-stand movements using OpenPose.
 
