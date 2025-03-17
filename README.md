@@ -4,7 +4,7 @@ This repository provides custom code to run the Sit2Stand library, enabling anal
 
 ## Prerequisites
 
-- OpenPose must be installed to extract pose data from videos. A [OpenPose fork]([https://link-url-here.org](https://github.com/franzcrs/openpose-with-caffe-for-MacM1?tab=readme-ov-file)) is reccomended.
+- OpenPose must be installed to extract pose data from videos. A [OpenPose fork](https://github.com/franzcrs/openpose-with-caffe-for-MacM1?tab=readme-ov-file) is reccomended.
 - Python dependencies listed in the `requirements.txt` file need to be installed.
 
 ## Installation
