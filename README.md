@@ -23,3 +23,7 @@ This repository provides custom code to run the Sit2Stand library, enabling anal
 ## Configuration
 
 All script paths must be updated to match the system’s directory structure. Ensure that file paths in all Python scripts and `links.csv` are correctly set before running the analysis.
+
+## Acknowledgments
+
+This project was inspired by and builds upon work from [Stanford NMBL's Sit2Stand Analysis](https://github.com/stanfordnmbl/sit2stand-analysis). The `utils.py` and `getmetrics.py` scripts were modified from their original implementation to run locally.
